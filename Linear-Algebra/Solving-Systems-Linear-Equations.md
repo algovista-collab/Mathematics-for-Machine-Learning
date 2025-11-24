@@ -17,8 +17,7 @@ This section details key concepts related to solving linear systems, determining
     3. All elements **below the leading entries (pivots)** are $\mathbf{0}$.
 * **Note:** While it's common in the **Reduced Row Echelon Form (RREF)** to require the pivots to be 1, in standard REF, they can be any non-zero number. 
 
-[Image of a matrix in Row Echelon Form]
-
+<img width="738" height="273" alt="Screenshot 2025-11-06 103835" src="https://github.com/user-attachments/assets/c2c7e7c0-1604-4d7d-a4a5-2439c622c1ff" />
 
 ---
 
