@@ -51,6 +51,8 @@ For a matrix $\mathbf{A}$ with $n$ columns (variables), the following relationsh
 
 $$\text{rank}(\mathbf{A}) + \text{dimension of solution space} = n \quad (\text{number of columns})$$
 
+<img width="1045" height="397" alt="image" src="https://github.com/user-attachments/assets/0c6891d3-d43b-4a83-b917-4b7a9a484fea" />
+
 Assuming a $2 \times 2$ matrix ($\mathbf{A}$ has 2 rows and 2 columns, $n=2$):
 * **Non-Singular (Full Rank):**
     * $\text{rank} = 2$.
