@@ -8,7 +8,7 @@ This section details key concepts related to solving linear systems, determining
 
 ### Gaussian Elimination
 * **Definition:** **Gaussian elimination** is an algorithm used to solve systems of linear equations.
-* **Process:** It uses a sequence of elementary row operations (swapping rows, multiplying a row by a non-zero scalar, or adding a multiple of one row to another) to transform the coefficient matrix into an upper triangular form.
+* **Process:** It uses a sequence of elementary row operations (swapping rows, multiplying a row by a non-zero scalar, or adding a multiple of one row to another) to transform the coefficient matrix into an upper triangular form. When we do the row operations and one or more rows are zeros and when the column of constants is also zero for the same row, then it has system of infinitely many solutions, otherwise is has no solution (contradictory).
 
 ### Row Echelon Form (REF)
 * **Definition:** A matrix is in **Row Echelon Form (REF)** when:
