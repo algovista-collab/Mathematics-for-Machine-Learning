@@ -62,3 +62,68 @@ The nature of the solution depends on the properties of the system's underlying 
 
 <img width="1027" height="255" alt="image" src="https://github.com/user-attachments/assets/9aee7adb-eb3d-4f73-b43a-53b79b4841c9" />
 
+## Fundamental Concepts of Linear Algebra
+
+This section focuses on the definitions of linear and non-linear equations and how systems of linear equations are understood geometrically and analytically using concepts like dependence and the determinant.
+
+---
+
+## 1. Linear vs. Non-Linear Equations
+
+The key distinction lies in the degree of the variables and the operations performed on them.
+
+### Linear Equations
+
+* **Definition:** An equation is linear if every variable has a degree of $\mathbf{1}$ and the variables are only combined through addition or subtraction, scaled by numerical coefficients (scalars).
+* **General Form:** $a_1x_1 + a_2x_2 + \dots + a_nx_n = c$
+* **Example:** $3x + 2y - z = 10$
+
+### Non-Linear Equations
+
+* **Definition:** An equation is non-linear if it involves variables raised to a power other than one, or if it includes non-linear functions (like trigonometric, exponential, or logarithmic functions).
+* **Examples of Non-Linear Terms:**
+    * Variables with exponents: $a^2 + b^2 = 1$
+    * Variables in a denominator (implying a negative exponent): $a/b$
+    * Transcendental functions: $\sin(x)$, $\log(x)$, $e^x$
+
+---
+
+## 2. Geometric Interpretation of Linear Systems
+
+**Linear Algebra** is the study of linear equations and their transformations.
+
+### Visualizing Solutions
+
+When we have a system of linear equations, a solution is a set of values for the variables that satisfy *all* equations simultaneously. Geometrically, this solution is the **intersection** of the shapes defined by the individual equations.
+
+* **Two Variables (2D Plane):** A linear equation with two variables (e.g., $ax + by = c$) corresponds to a **line** in a two-dimensional plane. The solution to a system of two equations is the point where the two lines intersect. 
+
+* **Three Variables (3D Space):** A linear equation with three variables (e.g., $ax + by + cz = d$) corresponds to a **plane** in three-dimensional space. The solution to a system of three equations is the single **point** where all three planes intersect. 
+
+---
+
+## 3. Linear Dependence and System Singularity
+
+The nature of a system's solution (unique, infinite, or none) is determined entirely by the coefficients of the variables, not by the constant terms (the Right-Hand Side, or RHS) of the equations.
+
+### Linear Dependence Between Rows (Equations)
+
+* **Definition of Dependence:** Linear dependence exists between two or more equations (rows in the matrix) if one row can be obtained by multiplying another row by a scalar (or by adding multiples of other rows).
+    * **Example:** If $a + b = 5$ and $2a + 2b = 10$, the second equation is simply $2 \times (\text{first equation})$. The rows are linearly dependent.
+* **Definition of Independence:** Rows are **linearly independent** if no row can be expressed as a linear combination of the other rows.
+
+### Non-Singular vs. Singular Systems
+
+This dependence directly determines the system's nature and its ability to yield a unique solution:
+
+| Property | Condition | Implication for Solution |
+| :--- | :--- | :--- |
+| **Non-Singular** (Complete) | The rows (equations) are **linearly independent**. | **Unique Solution** exists. |
+| **Singular** (Redundant or Contradictory) | The rows (equations) are **linearly dependent**. | **Infinite Solutions** (redundant) or **No Solution** (contradictory). |
+
+### The Determinant
+
+The **determinant** is a scalar value calculated from the elements of a square matrix that summarizes these properties:
+
+* **Non-Singular Matrices:** Have a **non-zero determinant** ($\det(A) \neq 0$). This guarantees the system has a unique solution and the matrix is invertible.
+* **Singular Matrices:** Have a **zero determinant** ($\det(A) = 0$). This means the system is either redundant or contradictory (infinite or zero solutions).
