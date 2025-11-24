@@ -34,6 +34,8 @@ This section details key concepts related to solving linear systems, determining
 
 <img width="1167" height="455" alt="Screenshot 2025-11-06 104144" src="https://github.com/user-attachments/assets/4dacd586-3b54-4c95-8642-bbe0548764d3" />
 
+<img width="1122" height="193" alt="Screenshot 2025-11-06 115418" src="https://github.com/user-attachments/assets/967fa3e1-c0cd-4311-a6bb-282a03478792" />
+
 ---
 
 ## 3. Rank and the Solution Space
