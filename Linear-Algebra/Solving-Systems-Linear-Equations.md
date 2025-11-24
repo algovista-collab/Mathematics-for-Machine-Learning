@@ -32,6 +32,8 @@ This section details key concepts related to solving linear systems, determining
 ### Non-Singular Matrices and Full Rank
 * **Condition:** A square matrix is **non-singular** (and therefore invertible) **if and only if** it has **full rank**, meaning the rank is equal to the number of rows ($\text{rank}(A) = m$) and the number of columns ($\text{rank}(A) = n$).
 
+<img width="1167" height="455" alt="Screenshot 2025-11-06 104144" src="https://github.com/user-attachments/assets/4dacd586-3b54-4c95-8642-bbe0548764d3" />
+
 ---
 
 ## 3. Rank and the Solution Space
