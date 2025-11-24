@@ -12,6 +12,8 @@ This section details key concepts related to solving linear systems, determining
 
 <img width="913" height="237" alt="image" src="https://github.com/user-attachments/assets/c9cd9a6e-3f8c-4af7-9d6e-039dc2bb4b98" />
 
+<img width="650" height="191" alt="Screenshot 2025-11-06 111137" src="https://github.com/user-attachments/assets/1771ecc7-553a-425e-9348-ea492b47b009" />
+
 ### Row Echelon Form (REF)
 * **Definition:** A matrix is in **Row Echelon Form (REF)** when:
     1. All non-zero rows are above any rows of all zeros.
